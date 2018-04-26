@@ -2,7 +2,7 @@
 import json
 
 from scrapy import Spider, Request
-from zhihuuser.items import UserItem
+from ZhihuSpider.items import UserItem
 
 
 class ZhihuSpider(Spider):
